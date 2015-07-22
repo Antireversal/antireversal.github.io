@@ -1,0 +1,72 @@
+/*Code sections is for 3 mini blocks w/links*/ 
+code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 10px;
+  position: relative;
+  bottom: 46px;
+  text-align: left;
+}
+/*Nav1 section is for Top and Bottom links*/
+#Nav1{
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 50px/10px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 20px 15px;
+  text-align: left;
+}
+#Nav2{
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 50px/10px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 20px 15px;
+  position: relative;
+  text-align: left;
+}
+part{
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 385px;
+  position: relative;
+  bottom: 19px;
+  text-align: center;
+}
+header,
+section,
+aside,
+footer {
+  margin: 0 1.83% 24px 1.5%;
+}
+#s2 {
+  position: relative;
+  bottom: 10px;
+  display: inline-block;
+  width: 30%;
+}
+footer {
+  margin-bottom: 0;
+}
+.link{
+	font-size: 30px;
+}
+.link1{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 25px;
+	margin: 10px;
+	position: relative;
+	right: 20px;
+	bottom: 5px;
+}
+a:hover{
+	color: orange;
+}

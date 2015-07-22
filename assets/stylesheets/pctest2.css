@@ -1,0 +1,75 @@
+html {
+	margin: 0;
+	padding: 0;
+	background: url(images/concrete_seamless.png);
+}
+body {
+	width: 940px;
+	margin: 0 auto;
+	font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;
+}
+h1 {
+	font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	background:red;
+	color: #e5b7ad;
+	padding-top: 30px ;
+	text-shadow: 1px 1px 2px #fff; 
+
+}
+aside{
+	float: left;
+	width: 470px;
+	min-height: 480px;
+	background:green;
+	margin: 0 0 20px 0;
+	border-radius: 10px;
+}
+section{
+	float: right;
+	width: 428px;
+	padding-left: 20px;
+	background:black;
+	margin: 0 0 20px 0px;
+	border-radius: 10px;
+
+
+}
+section h2 {
+	font: 14pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	background:red;
+	color: #493831;
+	padding-bottom: 378px;
+	margin: 0;
+	border-radius: 10px;
+}
+footer{
+	position: relative;
+	clear:both !important;
+	width:920px;
+	height: 100px;
+	padding: 10px;
+	color:#200f08 ;
+	background:gray;
+	border-radius: 10px;
+	bottom: 10px;
+}
+section.nav{
+	position: relative;
+	top: 10px;
+	width: 920px;
+	height: 30px;
+	padding: 10px;
+	background: orange;
+
+}
+img.displayed{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+

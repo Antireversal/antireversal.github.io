@@ -1,0 +1,57 @@
+
+body {
+  margin: 0;
+}
+p:first-of-type {
+  margin-top: 0;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+.social {
+	border: 6px double #949599;
+	border-radius: 10px;
+	color: purple;
+	background-color: cyan;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	width: 400px;
+
+}
+
+/*Nav1 and Nav2*/
+#Nav1{
+	background: gray;
+}
+#Nav2{
+	background: gray;
+}
+
+/*Link Design*/
+a:visited{
+	color: purple;
+}
+a:link{
+	color: white;
+}
+.link:hover{
+	color: cyan;
+}
+
+/*Button Design*/
+.btn:hover{
+	color: white;
+	font-size: 30px;
+}
+.btn {
+  font-size: 16px;
+}
+.btn-danger {
+  background: red;
+}
+.btn-success {
+  background: green;
+}
+
