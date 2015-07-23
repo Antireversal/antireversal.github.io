@@ -28,10 +28,6 @@ aside{
 	/*Aligns image buttons in center*/
 	text-align:center;
 }
-#button{
-	position:relative;
-	top: 25px;
-}
 h1 {
 	font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;
 	text-align: center;
@@ -87,10 +83,8 @@ img.displayed{
 .link:hover{
 	color:black;
 }
-a:visited{
-	color: purple;
 }
-a:link{
+.link:link{
 	color: white;
 }
 
