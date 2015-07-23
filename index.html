@@ -1,9 +1,14 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<script language="javascript" type="text/javascript" src="jquery-2.1.4.js"></script>
+
 		<link rel="stylesheet" href="assets/stylesheets/pctest2.css">
+
 		<meta charset="UTF-8" />
 		<title>NeHab - Electronic Knee Rehabilitation</title>
+		<!--Link below sets the "Favicon" or "Icon" of a website-->
+		<link rel="shortcut icon" href="assets/stylesheets/images/favicon.ico">
 	</head>
 	<body>
 		<header>
@@ -15,12 +20,17 @@
 			<a class="link" href="index.html">Contact Us</a>
 		</section>
 		<aside>
-			<p>illustration</p>
+			<img src="Slide1.GIF" id="mainImage" name="mainImage" width="100%" height="100%" alt="mainImage">
+
+			<a href="#" id="button" onclick="swapImage(currentIndex-1);"><img src="assets/stylesheets/images/Last.PNG" border=0 alt="Back"></a>
+			<a href="#" id="button" onclick="swapImage(currentIndex+1);"><img src="assets/stylesheets/images/Next.PNG" border=0 alt="Next"></a>
+
 		</aside>
 		<section>
 			<article>
 				<header>
 					<h2>Title</h2>
+
 					<p>content</p>
 				</header>
 				<p>content</p>
@@ -29,5 +39,38 @@
 	<footer>
 		<p>content</p>
 	</footer>
+
+	<!--JavaScript Below -->
+
+	<script type="text/javascript">
+   		//Initilize start value to 1 'For Slide1.GIF'
+   		var currentIndex =1;
+
+    	//NOTE: Set this value to the number of slides you have in the presentation.
+    	var maxIndex=26;
+
+   		function swapImage(imageIndex){
+        	//Check if we are at the last image already, return if we are.
+        	if(imageIndex>maxIndex){
+            	currentIndex=maxIndex;
+            	return;
+        	}
+
+        	//Check if we are at the first image already, return if we are.
+        	if(imageIndex<1){
+            	currentIndex=1;
+            	return;
+        	}
+
+        	currentIndex=imageIndex;
+        	//Otherwise update mainImage
+        	document.getElementById("mainImage").src='Slide' +  currentIndex  + '.GIF';
+        	return;
+    	}
+	</script>
+
+	<!--End of JavaScript-->
+
 </body>
 </html>
+

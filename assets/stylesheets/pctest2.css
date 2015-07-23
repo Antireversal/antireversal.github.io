@@ -25,6 +25,12 @@ aside{
 	background:black;
 	margin: 0 0 20px 0;
 	border-radius: 10px;
+	/*Aligns image buttons in center*/
+	text-align:center;
+}
+#button{
+	position:relative;
+	top: 25px;
 }
 h1 {
 	font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;
