@@ -28,6 +28,10 @@ aside{
 	/*Aligns image buttons in center*/
 	text-align:center;
 }
+#button{
+	position:relative;
+	top:23px;
+}
 h1 {
 	font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;
 	text-align: center;
