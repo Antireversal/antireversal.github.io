@@ -78,6 +78,9 @@ img.displayed{
 	margin-left: auto;
 	margin-right: auto;
 }
+a:link{
+	color: white;
+}
 .link{
 	font-size: 20px;
 	font-family: Impact, Charcoal, sans-serif;
@@ -87,9 +90,6 @@ img.displayed{
 .link:hover{
 	color:black;
 }
-}
-.link:link{
-	color: white;
-}
+
 
 
