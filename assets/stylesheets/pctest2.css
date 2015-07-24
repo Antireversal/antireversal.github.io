@@ -67,9 +67,9 @@ section h2 {
 	right: 10px;
 }
 section h3 {
-	font-size: 28px;
+	font-size: 24px;
 	text-align: center;
-	font-family: Impact, Charcoal, sans-serif;
+	font-family: Georgia, serif;
 	background:white;
 	color: black;
 	padding: 16px;
@@ -108,6 +108,10 @@ a:link{
 }
 .link:hover{
 	color:black;
+}
+#mainImage{
+	position: relative;
+	top: 10px;
 }
 
 
