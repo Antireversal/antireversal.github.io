@@ -64,10 +64,12 @@ section h2 {
 }
 footer{
 	position: relative;
+	text-align: center;
+    font: 12pt Helvetica,"Helvetica neue", Arial, sans-serif;
 	clear:both !important;
 	width:920px;
 	height: 100px;
-	padding: 10px;
+	padding: 5px;
 	color:#200f08 ;
 	background:gray;
 	border-radius: 10px;
