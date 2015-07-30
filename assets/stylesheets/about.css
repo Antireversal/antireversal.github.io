@@ -20,7 +20,7 @@ section.nav{
 }
 section{
 	width: 920px;
-	height: 500px;
+	height: 380px;
 	padding-left: 20px;
 	background:black;
 	margin: 0 0 20px 0px;
@@ -33,10 +33,12 @@ img.displayed{
 }
 footer{
 	position: relative;
+	text-align: center;
+    font: 12pt Helvetica,"Helvetica neue", Arial, sans-serif;
 	clear:both !important;
-	width:920px;
-	height: 100px;
-	padding: 10px;
+	width:930px;
+	height: 120px;
+	padding: 5px;
 	color:#200f08 ;
 	background:gray;
 	border-radius: 10px;
@@ -45,7 +47,6 @@ footer{
 #img01{
 	position: relative;
 	top: 10px;
-	left: 125px;
 }
 a:link{
 	color: white;
